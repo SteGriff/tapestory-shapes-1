@@ -1,5 +1,5 @@
 <template>
-  <div :class="['box', shapeClass, colourClass]">{{ msg }}</div>
+  <div :class="['box', 'shape' + shape, 'shader' + shader, 'palette' + palette]">{{ text }}</div>
 </template>
 
 <script setup>
@@ -9,7 +9,7 @@ defineProps({
   text: String,
   shape : String,
   shader : String,
-  colour : String
+  palette : String
 })
 
 </script>

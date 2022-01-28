@@ -1,13 +1,14 @@
 <template>
   <main>
     <h1>{{message}}</h1>
-    <input v-model="message">
-    <Box 
+    <input v-model="message" />
+    <Box :text="message" />
   </main>
 </template>
 
 <script setup>
 import HelloWorld from "./components/HelloWorld.vue";
+import Box from "./components/Box.vue";
 import { ref } from 'vue';
   
 // This starter template is using Vue 3 experimental <script setup> SFCs
