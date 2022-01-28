@@ -9,7 +9,7 @@ defineProps({
   text: String,
   shape : String,
   shader : String,
-  palette : String
+  palette : Number
 })
 
 </script>

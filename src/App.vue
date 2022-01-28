@@ -1,14 +1,12 @@
 <template>
   <main>
-    <h1>{{message}}</h1>
     <input v-model="message" />
-    <Box :text="message" />
+    <box text="message" shape="'round'" shader="'gradient'" palette="0"/>
   </main>
 </template>
 
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
-import Box from "./components/Box.vue";
+import box from "./components/Box.vue";
 import { ref } from 'vue';
   
 // This starter template is using Vue 3 experimental <script setup> SFCs
