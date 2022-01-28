@@ -7,9 +7,9 @@ import { defineProps, reactive } from 'vue'
 
 defineProps({
   text: String,
-  shapeClass : String,
-  shaderClass : String,
-  colourClass : String
+  shape : String,
+  shader : String,
+  colour : String
 })
 
 </script>

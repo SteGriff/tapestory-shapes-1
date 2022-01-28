@@ -2,6 +2,7 @@
   <main>
     <h1>{{message}}</h1>
     <input v-model="message">
+    <Box 
   </main>
 </template>
 
