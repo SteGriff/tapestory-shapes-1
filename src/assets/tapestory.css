@@ -1,7 +1,9 @@
 .box {
   min-height: 3rem;
   min-width: 3rem;
-  
+  background: blue;
+  border-radius: 0.5rem;
+  color: white;
 }
 
 .shapeRound {

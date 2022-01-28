@@ -1,7 +1,7 @@
 <template>
-  <main>
+  <main class="sans-serif">
     <input v-model="message" />
-    <box text="message" shape="'round'" shader="'gradient'" palette="0"/>
+    <box :text="message" shape="round" shader="gradient" :palette="0"/>
   </main>
 </template>
 
