@@ -4,9 +4,9 @@
     
     <box :text="message" shape="round" shader="gradient" :palette="0"/>
     <div class="mv4">
-      <select v-model="">
+<!--       <select v-model="">
         <option></option>
-  </select>
+  </select> -->
   </div>
   </main>
 </template>
