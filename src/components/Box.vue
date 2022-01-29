@@ -1,5 +1,10 @@
 <template>
-  <div :class="['box', 'shape' + shape, 'shader' + shader, 'palette' + palette]">{{ text }}</div>
+  <div 
+       :class="['box', 'shape' + shape, 'shader' + shader, 'palette' + palette]"
+       
+       >
+    {{ text }}
+  </div>
 </template>
 
 <script setup>
