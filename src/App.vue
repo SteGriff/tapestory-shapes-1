@@ -1,6 +1,6 @@
 <template>
-  <main class="sans-serif">
-    <input v-model="message" />
+  <main class="sans-serif w-99 measure center mv4">
+<!--     <input v-model="message" /> -->
     <box :text="message" shape="round" shader="gradient" :palette="0"/>
   </main>
 </template>
