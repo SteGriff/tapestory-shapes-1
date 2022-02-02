@@ -3,11 +3,12 @@
 <!--     <input v-model="message" /> -->
     
     <box :text="message" shape="round" shader="gradient" :palette="0"/>
-    <div class="mv4">
-<!--       <select v-model="">
-        <option></option>
-  </select> -->
-  </div>
+    <div class="mv4 ba br4">
+      <div class="overflow-x-scroll pa4">
+        <div v-for="p of palettes" :class="'palette' + p">
+        </div>
+      </div>
+    </div>
   </main>
 </template>
 
