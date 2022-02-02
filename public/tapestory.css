@@ -7,10 +7,23 @@
   padding: 1rem;
 }
 
+.black { color: black; }
+.white { color:white; }
+.first { color: var(--first); }
+.second { color: var(--second); }
+.third { color: var(--third); }
+.fourth { color: var(--fourth); }
+.fifth { color: var(--fifth); }
+
+.bg-first { background: var(--first); }
+.bg-second { background: var(--second); }
+.bg-third { background: var(--third); }
+.bg-fourth { background: var(--fourth); }
+.bg-fifth { background: var(--fifth); }
+
 .shapeRound {
   border-radius: 0.5rem;
 }
-
 
 .shaderSolid {
   
@@ -25,13 +38,5 @@
 }
 
 .shaderComicShadow {
-  
-}
-
-.palette1 {
-  
-}
-
-.palette2 {
   
 }
