@@ -7,6 +7,8 @@
   padding: 1rem;
 }
 
+.ws-nw {  white-space: nowrap; }
+
 .black { color: black; }
 .white { color:white; }
 .first { color: var(--first); }
@@ -20,6 +22,8 @@
 .bg-third { background: var(--third); }
 .bg-fourth { background: var(--fourth); }
 .bg-fifth { background: var(--fifth); }
+
+.palSlice { width: 6px; height: 30px; }
 
 .shapeRound {
   border-radius: 0.5rem;
