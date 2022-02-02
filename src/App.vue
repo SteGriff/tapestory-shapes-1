@@ -5,7 +5,7 @@
     <box :text="message" shape="round" shader="gradient" :palette="0"/>
     <div class="mv4 ba br4">
       <div class="overflow-x-scroll pa3 ws-nw">
-        <div v-for="p in palettes" :class="['palette' + p, 'mh1', 'dib', 'br2']">
+        <div v-for="p in palettes" :class="['palette' + p, 'mh1', 'dib', 'ba', 'pal']">
           <div class="dib palSlice bg-first"></div>
           <div class="dib palSlice bg-second"></div>
           <div class="dib palSlice bg-third"></div>
