@@ -1,7 +1,7 @@
 <template>
-  <div 
-       :class="['box', 'shape' + shape, 'shader' + shader, 'palette' + palette]"
-       
+  <div contenteditable
+       class="box tc b"
+       :class="['shape' + shape, 'shader' + shader, 'palette' + palette, foreground]"
        >
     {{ text }}
   </div>
@@ -14,7 +14,8 @@ defineProps({
   text: String,
   shape : String,
   shader : String,
-  palette : Number
+  palette : Number,
+  foreground: String
 })
 
 </script>
