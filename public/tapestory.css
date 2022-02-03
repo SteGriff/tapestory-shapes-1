@@ -7,41 +7,78 @@
   padding: 1rem;
 }
 
-.ws-nw {  white-space: nowrap; }
+.ws-nw {
+  white-space: nowrap;
+}
 
-.black { color: black; }
-.white { color:white; }
-.first { color: var(--first); }
-.second { color: var(--second); }
-.third { color: var(--third); }
-.fourth { color: var(--fourth); }
-.fifth { color: var(--fifth); }
+.black {
+  color: black;
+}
+.white {
+  color: white;
+}
+.first {
+  color: var(--first);
+}
+.second {
+  color: var(--second);
+}
+.third {
+  color: var(--third);
+}
+.fourth {
+  color: var(--fourth);
+}
+.fifth {
+  color: var(--fifth);
+}
 
-.bg-first { background: var(--first); }
-.bg-second { background: var(--second); }
-.bg-third { background: var(--third); }
-.bg-fourth { background: var(--fourth); }
-.bg-fifth { background: var(--fifth); }
+.bg-first {
+  background: var(--first);
+}
+.bg-second {
+  background: var(--second);
+}
+.bg-third {
+  background: var(--third);
+}
+.bg-fourth {
+  background: var(--fourth);
+}
+.bg-fifth {
+  background: var(--fifth);
+}
 
-.pal { height: 32px; }
-.palSlice { width: 6px; height: 30px; }
+.pal {
+  height: 32px;
+}
+.palSlice {
+  width: 6px;
+  height: 30px;
+}
 
 .shapeRound {
   border-radius: 0.5rem;
 }
 
-.shaderSolid {
-  
+.shader1 {
+  background-color: var(--first);
 }
-
-.shaderGradient {
-  
+.shaderg135 {
+  background: linear-gradient(
+    90deg,
+    var(--first) 0%,
+    var(--third) 50%,
+    var(--fifth) 100%
+  );
 }
-
-.shaderCorners {
-  
-}
-
-.shaderComicShadow {
-  
+.shaderg12345 {
+  background: linear-gradient(
+    90deg,
+    var(--first) 0%,
+    var(--second) 20%,
+    var(--third) 40%,
+    var(--fourth) 60%,
+    var(--fifth) 100%
+  );
 }
