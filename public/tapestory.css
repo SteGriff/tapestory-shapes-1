@@ -68,29 +68,31 @@
   background-color: var(--first);
 }
 .shader2 {
-  background-color: var(--first);
+  background-color: var(--second);
 }
 .shader3 {
-  background-color: var(--first);
+  background-color: var(--third);
 }
 .shader4 {
-  background-color: var(--first);
+  background-color: var(--fourth);
 }
 .shader5 {
-  background-color: var(--first);
+  background-color: var(--fifth);
 }
+
 .shaderg13 {
   background: linear-gradient(
     90deg,
     var(--first) 0%,
-    var(--third) 100%,
+    var(--third) 100%
   );
 }
+
 .shaderg35 {
   background: linear-gradient(
     90deg,
     var(--third) 0%,
-    var(--third) 100%,
+    var(--fifth) 100%
   );
 }
 
@@ -102,6 +104,7 @@
     var(--fifth) 100%
   );
 }
+
 .shaderg12345 {
   background: linear-gradient(
     90deg,
@@ -111,4 +114,14 @@
     var(--fourth) 60%,
     var(--fifth) 100%
   );
+}
+
+.shadera {
+  background-color: var(--second);
+  box-shadow: 4px 4px 0 0 var(--first), -4px -4px 0 0 var(--third);
+}
+
+.shaderb {
+  background-color: var(--fourth);
+  box-shadow: 4px 4px 0 0 var(--third), -4px -4px 0 0 var(--fifth);
 }
