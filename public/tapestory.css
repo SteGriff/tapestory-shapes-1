@@ -49,13 +49,16 @@
   background: var(--fifth);
 }
 
-.pal {
+.sqr32 {
   height: 32px;
+  width: 32px;
 }
 .palSlice {
   width: 6px;
   height: 30px;
 }
+
+
 
 .shapeRound {
   border-radius: 0.5rem;
@@ -64,6 +67,33 @@
 .shader1 {
   background-color: var(--first);
 }
+.shader2 {
+  background-color: var(--first);
+}
+.shader3 {
+  background-color: var(--first);
+}
+.shader4 {
+  background-color: var(--first);
+}
+.shader5 {
+  background-color: var(--first);
+}
+.shaderg13 {
+  background: linear-gradient(
+    90deg,
+    var(--first) 0%,
+    var(--third) 100%,
+  );
+}
+.shaderg35 {
+  background: linear-gradient(
+    90deg,
+    var(--third) 0%,
+    var(--third) 100%,
+  );
+}
+
 .shaderg135 {
   background: linear-gradient(
     90deg,
